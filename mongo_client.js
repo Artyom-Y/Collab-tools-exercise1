@@ -3,4 +3,4 @@ import 'dotenv/config';
 
 let url = process.env.DB_URL;
 
-const client = new MongoClient(url);
+export const client = new MongoClient(url);
